@@ -1,18 +1,14 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import FiltSearchBar from './components/FiltSearchBar';
 import './App.css';
+import 'antd/dist/antd.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <h1>Welcome to my super cool store...</h1>
+        <FiltSearchBar />
       </div>
     );
   }
